@@ -1,0 +1,232 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\begin_preamble
+\addtokomafont{disposition}{\rmfamily}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Installazione di RCS Galileo Demo
+\end_layout
+
+\begin_layout Section
+Preparazione
+\end_layout
+
+\begin_layout Enumerate
+Entrambe le macchine devono essere windows, per il server a 64 bit.
+\end_layout
+
+\begin_layout Enumerate
+Nella cartella scaricata c'è tutto il materiale necessario all'installazione.
+\end_layout
+
+\begin_layout Enumerate
+Configurare il file host e del server e del target secondo il file Demo_Chains_N
+aming_Conventions.txt
+\end_layout
+
+\begin_layout Enumerate
+Modificare la data a Maggio 2015.
+\end_layout
+
+\begin_layout Enumerate
+Non utilizzare una macchina virtuale per il target.
+\end_layout
+
+\begin_layout Section
+Installazione del server
+\end_layout
+
+\begin_layout Enumerate
+Installare RCS rcs-setup-2015020201.exe in 
+\begin_inset Quotes eld
+\end_inset
+
+Master node
+\begin_inset Quotes erd
+\end_inset
+
+ mode.
+\end_layout
+
+\begin_layout Enumerate
+Inserire come hostname 
+\begin_inset Quotes eld
+\end_inset
+
+rcs-server
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename scrshto/install_1.PNG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Inserire il file di licenza fornito
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename scrshto/install_2.PNG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Password: Scemoscemo01
+\end_layout
+
+\begin_layout Enumerate
+Al messaggio di errore copiare i file nella cartella di installazione secondo
+ la struttura fornita.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename scrshto/install_4.PNG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Installare Adobe AIR.
+\end_layout
+
+\begin_layout Enumerate
+Installare console AIR.
+\end_layout
+
+\begin_layout Enumerate
+Seguire le istruzioni nella slide 4 del file pptx FAE_Group_Demo_Guide_v2.6.1.pptx,
+ ma prima del punto 5 risostituire i file della patch, e saltare il punto
+ 8.
+\end_layout
+
+\begin_layout Enumerate
+Eseguire la console inserendo come Username: 
+\begin_inset Quotes eld
+\end_inset
+
+demo
+\begin_inset Quotes erd
+\end_inset
+
+, password: 
+\begin_inset Quotes eld
+\end_inset
+
+Password123
+\begin_inset Quotes erd
+\end_inset
+
+ e server: 
+\begin_inset Quotes eld
+\end_inset
+
+rcs-server
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Installazione del client
+\end_layout
+
+\begin_layout Enumerate
+Seguire le istruzioni contenute nel file Fake_0-day_Exploit.txt
+\end_layout
+
+\end_body
+\end_document
