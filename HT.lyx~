@@ -133,6 +133,7 @@ rcs-server
 \begin_layout Standard
 \begin_inset Graphics
 	filename scrshto/install_1.PNG
+	scale 70
 
 \end_inset
 
@@ -148,6 +149,7 @@ Inserire il file di licenza fornito
 \begin_layout Standard
 \begin_inset Graphics
 	filename scrshto/install_2.PNG
+	scale 70
 
 \end_inset
 
@@ -168,6 +170,7 @@ Al messaggio di errore copiare i file nella cartella di installazione secondo
 \begin_layout Standard
 \begin_inset Graphics
 	filename scrshto/install_4.PNG
+	scale 70
 
 \end_inset
 
